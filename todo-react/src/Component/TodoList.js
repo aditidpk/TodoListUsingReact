@@ -22,9 +22,9 @@ export default class TodoList extends Component {
           name="name"
         />
         <button onClick={this.addItemToList}>Add</button>
-        <text>
+        <h3>
         <br/>Tasks in Todo
-        </text>
+        </h3>
         {this.state.list.map((e, index) => {
           return (
             <div key={index}>
